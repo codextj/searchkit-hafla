@@ -64,6 +64,7 @@ class InstantSearchElasticsearchAdapter {
           'Content-Type': 'application/json',
           ...this.getHeaders()
         },
+        credentials: 'include',
         method: 'POST'
       })
 
@@ -101,6 +102,7 @@ class InstantSearchElasticsearchAdapter {
           'Content-Type': 'application/json',
           ...this.getHeaders()
         },
+        credentials: 'include',
         method: 'POST'
       })
 
